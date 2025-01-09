@@ -10,14 +10,40 @@ const Skills = () => {
 			<h1 className='text-7xl uppercase font-bold'>SKILLS</h1>
 		</div>
 		<div id='skills-body' className='max-w-[80%] flex flex-row flex-wrap justify-center items-center'>
-			<FaHtml5 size={100} className='m-5'/>
-			<FaCss3Alt size={100}/>
-			<RiTailwindCssFill size={100} className='m-5'/>
-			<IoLogoJavascript size={100} className='m-5'/>
-			<FaReact size={100} className='m-5'/>
-			<FaNodeJs size={100} className='m-5'/>
-			<RiFlutterFill size={100} className='m-5'/>
-			<IoLogoFirebase size={100} className='m-5'/>
+			<div className='px-1 my-4'>
+				<FaHtml5 size={100} className='m-5'/>
+				<p>HTML</p>
+			</div>
+			<div className='px-1 my-4'>
+				<FaCss3Alt size={100} className='m-5'/>
+				<p>CSS</p>
+			</div>
+			<div className='px-1 my-4'>
+				<RiTailwindCssFill size={100} className='m-5'/>
+				<p>TailwindCSS</p>
+			</div>
+			<div className='px-1 my-4'>
+				<IoLogoJavascript size={100} className='m-5'/>
+				<p>Javascript</p>
+			</div>
+			<div className='px-1 my-4'>
+				<FaReact size={100} className='m-5'/>
+				<p>ReactJS</p>
+			</div>
+			<div className='px-1 my-4'>
+				<FaNodeJs size={100} className='m-5'/>
+				<p>NodeJS</p>
+			</div>
+			<div className='px-1 my-4'>
+				<RiFlutterFill size={100} className='m-5'/>
+				<p>Flutter</p>
+			</div>
+			<div className='px-1 my-4'>
+				<IoLogoFirebase size={100} className='m-5'/>
+				<p>Firebase</p>
+			</div>
+			
+			
 		</div>
     </div>
   )
