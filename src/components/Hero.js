@@ -14,7 +14,7 @@ const Hero = () => {
 			<div id='hero-body' className='flex flex-row justify-between p-5 rounded-xl shadow-xl mb-5 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900'>
 				<a href='https://github.com/cincsobrepena' rel='noreferrer' target='_blank'><AiFillGithub className='cursor-pointer mx-5' size={35}/></a>
 				<a href='https://www.linkedin.com/in/carl-sobrepena/' rel='noreferrer' target='_blank'><AiFillLinkedin className='cursor-pointer mx-5' size={35}/></a>
-				<a href='https://drive.google.com/file/d/1ytpPWigeJLhgSxhNreW1bd-v3uXzyERc/view?usp=sharing' rel='noreferrer' target='_blank'><RiFileDownloadFill  size={35} className='cursor-pointer mx-5'/></a>
+				<a href='https://drive.google.com/drive/folders/1DoMzPUPSNUFKu9xX5CnMWAgWzfkFjnMh?usp=sharing' rel='noreferrer' target='_blank'><RiFileDownloadFill  size={35} className='cursor-pointer mx-5'/></a>
 			</div>
     </div>
   )
