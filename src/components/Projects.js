@@ -22,7 +22,7 @@ const Projects = () => {
 							This is a real-time chat app where users join rooms by entering their name and room number.
 						</p>
 						<div className='flex flex-row w-fit py-2 px-5 items-center justify-between bg-slate-900 rounded-r-3xl rounded-l-md shadow-2xl'>
-							<a target='_blank' rel='noreferrer' href='https://github.com/cincsobrepena/Tugunan'  className='flex flex-row w-fit py-2 px-5 items-center justify-between bg-slate-900 rounded-r-3xl rounded-l-md shadow-2xl'>
+							<a target='_blank' rel='noreferrer' href='https://github.com/cincsobrepena/Tugunan'  className='flex flex-row w-fit items-center justify-between bg-slate-900 rounded-r-3xl rounded-l-md shadow-2xl'>
 								<FaGithub size={20}  className='mr-4'/>
 								<p className='font-semibold'>Learn More</p>
 							</a>
