@@ -17,12 +17,15 @@ const Projects = () => {
 					</div>
 					<div className='flex flex-col justify-between text-left'>
 						<h2 className='text-3xl font-bold '>Tugunan</h2>
+						<p className='text-sm text-slate-400'>React, Tailwind CSS, Socket.IO  </p>
 						<p>
 							This is a real-time chat app where users join rooms by entering their name and room number.
 						</p>
 						<div className='flex flex-row w-fit py-2 px-5 items-center justify-between bg-slate-900 rounded-r-3xl rounded-l-md shadow-2xl'>
-							<FaGithub size={20}  className='mr-4'/>
-							<p className='font-semibold'>Learn More</p>
+							<a target='_blank' rel='noreferrer' href='https://github.com/cincsobrepena/Tugunan'  className='flex flex-row w-fit py-2 px-5 items-center justify-between bg-slate-900 rounded-r-3xl rounded-l-md shadow-2xl'>
+								<FaGithub size={20}  className='mr-4'/>
+								<p className='font-semibold'>Learn More</p>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -32,6 +35,7 @@ const Projects = () => {
 					</div>
 					<div className='flex flex-col justify-between text-left'>
 						<h2 className='text-3xl font-bold '>Sphere</h2>
+						<p className='text-sm text-slate-400'>React, WeatherAPI.com  </p>
 						<p>
 							This project combines the power of the Pomodoro technique, an intuitive to-do list manager, and real-time weather forecasts.
 						</p>
@@ -46,7 +50,8 @@ const Projects = () => {
 						<img src={CodeRunner} alt='coderunner.jpg' className='max-w-28'/>
 					</div>
 					<div className='flex flex-col justify-between text-left'>
-						<h2 className='text-3xl font-bold '>CodeRunner</h2>
+						<h2 className='text-3xl font-bold '>CodeRunner </h2>
+						<p className='text-sm text-slate-400'>Dart, Flutter  </p>
 						<p>
 							 This project helps reinforce the user’s coding skills and familiarization with a specific programming language’s syntax in a gamified format.
 						</p>
